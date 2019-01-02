@@ -1,3 +1,15 @@
+This is a simple application that explores features of [Redux-Thunk](https://github.com/reduxjs/redux-thunk) by asynchonously retrieving blog posts and users from the public [JSONPlaceholder API](https://jsonplaceholder.typicode.com/), storing the results in the Redux store, and displaying the results using React components.
+
+The project explores the following key areas:
+
+* Applying Thunk middleware to Redux
+* Making asynchronous API requests and updating the Redux store with the API response 
+* Implementation of an action creator that calls other action creators, while still dispatching the results to the Redux store
+* Explores default parameters, switch statements, and making safe state updates in reducers
+* Lodash's [memoization](https://lodash.com/docs/4.17.11#memoize) and [chain](https://lodash.com/docs/4.17.11#chain) methods
+
+Examples are taken from the [Udemy Modern React with Redux course](https://www.udemy.com/react-redux/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
